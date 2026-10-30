@@ -1,5 +1,13 @@
 ///////////// Closures /////////////
 
+/// Simple Closures
+var count = 0
+let increment = {
+    count += 1
+}
+increment()
+print(count)
+
 /// Inline Closures
 func inline(action: () -> Void){
     action()
